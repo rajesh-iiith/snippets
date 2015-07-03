@@ -1,0 +1,21 @@
+// set proxy if required
+export https_proxy="proxy.iiit.ac.in:8080"
+
+
+//normally used commands
+git init
+git add README.md // or git add *.txt // or git add *
+git commit -m "type commit comment here"
+git remote add origin https://github.com/rajesh-iiith/RMI_ReadWriteThroughServers.git
+git push -u origin master
+
+
+//add files to staging area
+git add filename/s
+
+//find out uncommited files in the staging area
+git status
+
+//commit
+git commit -m"Fix typo in introduction to user guide" 
+git commit
