@@ -8,10 +8,11 @@ git add README.md // or git add *.txt // or git add *
 git commit -m "type commit comment here"
 git remote add origin https://github.com/rajesh-iiith/RMI_ReadWriteThroughServers.git
 git push -u origin master
+git pull origin master
 
-
-//add files to staging area
+//add files/folders to staging area
 git add filename/s
+git add <folder>/*
 
 //find out uncommited files in the staging area
 git status
@@ -19,3 +20,9 @@ git status
 //commit
 git commit -m"Fix typo in introduction to user guide" 
 git commit
+
+//pull from a repository
+1. create a folder
+2. git init
+3. git remote add origin https://github.com/rajesh-iiith/RMI_ReadWriteThroughServers.git
+4. git pull origin master
